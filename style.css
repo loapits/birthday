@@ -125,5 +125,6 @@ time, mark, audio, video {
 
   .card {
     top: 15%;
+    margin-left: 20%;
   }
 }
