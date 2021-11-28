@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="./assets/balloons.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Happy BirthDay!</title>
+  </head>
+  <body>
+    <div id="app">
+      <div class="cake interact"></div>
+      <div class="rose interact"></div>
+      <div class="surprise interact"></div>
+      <div class="coffee interact"></div>
+      <div class='card'>
+        <h3>С Днем рождения!</h1>
+        <p>Арина, в этот прекрастный день хочу пожелать тебе любви, здоровья и благополучия в семье! Оставайся такой же доброй, красивой и умной. Пусть в жизни будут только позитивные моменты и сбываются все мечты! Так же желаю меньше нервов и больше спокойствия. И спасибо большое за твою поддержку!😁</p>
+      </div>
+      <svg height="0" xmlns="http://www.w3.org/2000/svg">
+        <filter id="drop-shadow">
+          <feGaussianBlur in="SourceAlpha" stdDeviation="4"/>
+          <feOffset dx="8" dy="12" result="offsetblur"/>
+          <feFlood flood-color="rgba(0,0,0,0.5)"/>
+          <feComposite in2="offsetblur" operator="in"/>
+          <feMerge>
+            <feMergeNode/>
+            <feMergeNode in="SourceGraphic"/>
+          </feMerge>
+        </filter>
+      </svg>
+    </div>
+    
+    <script src="./script.js"></script>  
+  </body>
+</html>
