@@ -53,6 +53,7 @@ for (let i = 0; i < elst.length; i++) {
 card.addEventListener('mouseover', () => {
   card.style.transform = 'rotate(0deg) scaleX(1.5) scaleY(1.5)';
   cake.style.zIndex = 1;
+  surprise.style.zIndex = 1;
   rose.style.zIndex = 1;
   coffee.style.zIndex = 1;
 })
